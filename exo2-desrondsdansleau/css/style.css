@@ -12,6 +12,11 @@
     margin : 2em 0.375em;
 }
 
+.loading__circle:hover{
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+
 .loading__circle--color-blue:hover {
     background-color: #4385F6;
 }
