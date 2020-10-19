@@ -1,1 +1,29 @@
 /*C'est par ici que tout se passe dans l'espace */
+.loading {
+    display: flex;
+    justify-content: center;
+}
+
+.loading__circle {
+    width: 2em;
+    height: 2em;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin : 2em 0.375em;
+}
+
+.loading__circle--color-blue:hover {
+    background-color: #4385F6;
+}
+
+.loading__circle--color-red:hover {
+    background-color: #EA4235;
+}
+
+.loading__circle--color-yellow:hover {
+    background-color: #FBBD06;
+}
+
+.loading__circle--color-green:hover {
+    background-color: #34A855;
+}
